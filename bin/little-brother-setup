@@ -1,5 +1,7 @@
-#|| goto :batch_part
- sh setup.sh
-exit
-:batch_part
- cmd setup.bat
+#!/usr/bin/env node
+
+const os = require('os').platform();
+require('child_process').spawn(
+	os == 'win32' ? 'setup.bat' : 'setup.sh', [], 
+	{stdio: 'inherit', cwd: __dirname + '/..'}
+);
