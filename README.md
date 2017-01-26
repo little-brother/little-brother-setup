@@ -1,1 +1,1 @@
-[Little brother DCIM](https://github.com/little-brother/little-brother-dcim) setup
+Easy way to install [Little brother DCIM](https://github.com/little-brother/little-brother-dcim) setup

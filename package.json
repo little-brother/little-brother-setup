@@ -1,6 +1,6 @@
 {
   "name": "little-brother-setup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "DCIM"
   ],
@@ -17,5 +17,9 @@
   "dependencies": {
     "request": "^2.79.0",
     "unzip": "^0.1.11"
-  }
+  },
+  "bin": {
+    "little-brother-setup": "bin/little-brother-setup"
+  },
+  "preferGlobal": "true"
 }
