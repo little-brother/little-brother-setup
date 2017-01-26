@@ -1,0 +1,5 @@
+#|| goto :batch_part
+ sh setup.sh
+exit
+:batch_part
+ cmd setup.bat

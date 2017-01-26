@@ -1,0 +1,21 @@
+{
+  "name": "little-brother-setup",
+  "version": "0.1.0",
+  "keywords": [
+    "DCIM"
+  ],
+  "author": {
+    "email": "lb.im@ya.ru"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/little-brother/little-brother-setup.git"
+  },
+  "license": "GPL-2.0",
+  "homepage": "http://little-brother.ru",
+  "dependencies": {
+    "request": "^2.79.0",
+    "unzip": "^0.1.11"
+  }
+}
