@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const os = require('os').platform();
+
 require('child_process').spawn(
 	os == 'win32' ? 'setup.bat' : 'setup.sh', [], 
 	{stdio: 'inherit', cwd: __dirname + '/..'}
